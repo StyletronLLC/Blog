@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Intelligent HTML Injection Demo</title>
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- CSS -->
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/pages.css" />
+
+</head>
+<body>
+	<header id="banner" class="body">
+		<h1><a href="#">Intelligent HTML Injection <strong>Okay, maybe not intelligent, but <del>better</del> <span>^</span><ins>smarter</ins> than before</strong></a></h1>
+		<nav>
+			<ul>
+				<li class="active"><a href="#">home</a></li>
+				<li><a href="#page1">page 1</a></li>
+				<li><a href="#page2">page 2</a></li>
+				<li><a href="#page3">page 3</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="content" class="body">
+		<p>dynamic content goes here.  Click a page to change me.</p>
+	</div>
+	<footer id="contentinfo" class="body">
+		<small>copyright mumbo jumbo</small>
+	</footer>
+	
+<!-- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script src="js/default.js"></script>
+<script src="js/pubsub.js"></script>
+
+<!-- Pages -->
+<script src="js/pages/page1.js"></script>
+
+<!-- Modules -->
+<script src="modules/search/search.js"></script>
+<script src="modules/form/form.js"></script>
+
+</body>
+</html>

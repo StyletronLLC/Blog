@@ -1,0 +1,12 @@
+#page1, #page2, #page3 {
+	width: 100%;
+}
+
+#blue, #red, #green {
+	margin: 10px 0;
+	padding: 0;
+}
+
+#blue { background-color: LightBlue; }
+#red { background-color: red; }
+#green { background-color: green; }
