@@ -1,11 +1,11 @@
-demo.page1 = function() {
+demo.page2 = function() {
 	/* private variables/methods */
 	function search(topic) {
-		$("#blue").html("<p>You searched for: " + topic + "</p>");
+		$("#red").html("<p>You searched for: " + topic + "</p>");
 	}
 	
 	function submitForm(values) {
-		$("#blue").html("<p>You submitted: " + values);
+		$("#red").html("<p>You submitted: " + values + "</p>");
 	}
 	
 	return {

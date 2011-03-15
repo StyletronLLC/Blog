@@ -4,7 +4,7 @@ demo.form = function(name) {
 	var moduleType = "form";
 	function submit() {
 		var $m = $("#" + moduleName);
-		$.publish("form/post", $("#" + moduleName + "-name").val(), $("#" + moduleName + "-email").val());
+		$.publish("form/submit", $("#" + moduleName + " form").serialize());
 	}
 	
 	return {
